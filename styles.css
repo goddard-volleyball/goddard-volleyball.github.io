@@ -1,8 +1,8 @@
-main-title {
+#main-title {
     text-decoration: underline;
 }
 
-pink-center {
+.pink-center {
     text-align: center;
     color: pink;
 }
