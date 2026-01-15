@@ -1,9 +1,9 @@
 on: push
-name: Publish Github Pages
+name: Publish on Github Pages
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/gh-pages'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: checkout
         uses: actions/checkout@v4
