@@ -4,3 +4,37 @@ NASA Goddard Mixed Volleyball Website
 [Link to Site](https://goddard-volleyball.github.io)
 
 [![Publish Github Pages](https://github.com/goddard-volleyball/goddard-volleyball.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/goddard-volleyball/goddard-volleyball.github.io/actions/workflows/publish.yml)
+
+### Goals
+- [ ] color coded team schedule
+- [ ] standings table
+- [ ] faq
+- [ ] champions
+- [ ] contact
+- [ ] rules
+- [ ] yearly gallery
+
+### Developers
+- Host: `Github pages`
+- Pre-processor: `zola`
+    - this is a super useful tool that generates the site for us from all the templates so we don't have to write as much code or copy paste
+- Style-processor: `sass` (built into zola)
+    - this is 
+- Data Processing: `terra` (built into zola)
+    - this is a language built into zola that can do things with our data files or further assist in generating individual files
+- Libraries: `bootstrap`
+    - this is a super useful framework that further helps with skeleton (html) items and does a lot of the heavy lifting for the styles within the html (.mb-3 translates to margin-bottom: 15px for instance)
+
+#### Local hosting commands
+```bash
+zola serve
+```
+
+#### Structure
+- sass -> styles folder
+- content ->
+- static ->
+- templates ->
+- public ->
+- .github ->
+- config.toml ->
