@@ -1,8 +1,8 @@
-# The URL the site will be built for
 base_url = "https://goddard-volleyball.github.io"
 
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
-
-# Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
+
+title = "GMVL"
+description = "Goddard Mixed Volleyball League"
+author = "GMVL"

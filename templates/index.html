@@ -1,13 +1,28 @@
-<html>
-    <head>
-        <title>GMVL</title>
-        <link rel="stylesheet" href="/styles.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    {% include "head.html" %}
 
-    <body style="background-color: black; color: white; ">
-        <h1 class="pink-center" id="main-title">Goddard Mixed Volleyball</h1>
-        <p class="pink-center">This is a temporary site for the NASA goddard mixed volleyball league.</p>
-
-        <img src="/2026.png" />
+    <body>
+        {% include "navigation.html" %}
+        
+        <div class="container">
+            <div class="card mt-3">
+                <div class="card-header">
+                    Annoucements
+                </div>
+                <div class="card-body">
+                    This is a temporary site for the NASA goddard mixed volleyball league.
+                </div>
+            </div>
+            
+            <div class="card mt-3">
+                <div class="card-header">
+                    2026 Schedule
+                </div>
+                <div class="card-body">
+                    <img src="/2026.png" />
+                </div>
+            </div>
+        </div>
     </body>
 </html>
