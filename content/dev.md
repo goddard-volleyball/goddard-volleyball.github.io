@@ -17,7 +17,7 @@ template = "page.html"
         <ul>
             <li>font change</li>
             <li>color scheme</li>
-            <li>other</li>
+            <li>404 page</li>
         </ul>
     </div>
 </div>
