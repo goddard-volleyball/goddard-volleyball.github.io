@@ -6,11 +6,9 @@
         {% include "navigation.html" %}
     
         <div class="container">
-
-                    {% block content %}
-                        {{ page.content | safe }}
-                    {% endblock content %}
-
+            {% block content %}
+                {{ page.content | safe }}
+            {% endblock content %}
         </div>
     
     </body>
