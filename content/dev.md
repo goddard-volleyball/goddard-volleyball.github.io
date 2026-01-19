@@ -19,6 +19,7 @@ template = "page.html"
 - color scheme
 - 404 page
 - favicon
+- logo
 
 </ul>
 </div>
