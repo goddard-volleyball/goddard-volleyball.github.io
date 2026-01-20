@@ -32,3 +32,21 @@ title = "Scores"
         </div>
     </div>
 </div>
+
+<div class="row g-4 mt-0">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header text-center">Contact the League</div>
+            <div class="card-body">
+                <div class="row g-4">
+                    <div class="col-6">
+                        <a class="btn btn-primary bg-theme text-dark button w-100" href="/" role="button">Email</a>
+                    </div>
+                    <div class="col-6">
+                        <a class="btn btn-primary bg-theme text-dark button w-100" href="/" role="button">Teams</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
