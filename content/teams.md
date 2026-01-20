@@ -27,7 +27,7 @@ title = "Teams"
     <div class="card h-100">
         <div class="card-header text-center">Team 3</div>
         <div class="card-body">
-            Sam?
+            UMD Red
         </div>
     </div>
 </div>
@@ -36,7 +36,7 @@ title = "Teams"
     <div class="card h-100">
         <div class="card-header text-center">Team 5</div>
         <div class="card-body">
-            UMD
+            Chaos
         </div>
     </div>
 </div>
@@ -57,7 +57,7 @@ title = "Teams"
     <div class="card h-100">
         <div class="card-header text-center">Team 11</div>
         <div class="card-body">
-            Tom?
+            Tom
         </div>
     </div>
 </div>
@@ -75,7 +75,7 @@ title = "Teams"
     <div class="card h-100">
         <div class="card-header text-center">Team 15</div>
         <div class="card-body">
-            Chaos
+            Sam/Roger
         </div>
     </div>
 </div>
