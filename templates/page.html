@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-    {% include "head.html" %}
+{% extends "base.html" %}
 
-    <body>
-        {% include "navigation.html" %}
-    
-        <div class="container">
-            {% block content %}
-                {{ page.content | safe }}
-            {% endblock content %}
-        </div>
-    
-    </body>
-</html>
+{% block content %}
+    {{ page.content | safe }}
+{% endblock content %}

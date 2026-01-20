@@ -1,28 +1,29 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-    {% include "head.html" %}
+{% extends "base.html" %}
 
-    <body>
-        {% include "navigation.html" %}
-        
-        <div class="container">
-            <div class="card mt-3">
-                <div class="card-header text-center">
-                    Announcements
-                </div>
-                <div class="card-body">
-                    This is a temporary site for the NASA goddard mixed volleyball league. The site is currently under construction, so check back soon!
-                </div>
-            </div>
-            
-            <div class="card mt-3">
-                <div class="card-header text-center">
-                    2026 Schedule
-                </div>
-                <div class="card-body overflow-auto">
-                    <img src="/2026.png" />
-                </div>
-            </div>
-        </div>
-    </body>
-</html>
+{% block content %}
+<div class="row g-4">
+<div class="col-12">
+<div class="card h-100">
+    <div class="card-header text-center">
+        Announcements
+    </div>
+    <div class="card-body">
+        This is a temporary site for the NASA goddard mixed volleyball league. The site is currently under construction, so check back soon!
+    </div>
+</div>
+</div>
+</div>
+
+<div class="row g-4 mt-0">
+<div class="col-12">
+<div class="card">
+    <div class="card-header text-center">
+        2026 Schedule
+    </div>
+    <div class="card-body overflow-auto">
+        <img src="/2026.png" />
+    </div>
+</div>
+</div>
+</div>
+{% endblock content %}

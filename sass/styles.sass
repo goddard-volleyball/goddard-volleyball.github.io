@@ -1,8 +1,14 @@
+$t1: pink
+
+@font-face
+  font-family: "lexend"
+  src: url(/lexend.ttf)
+
 body
-    font-family: sans-serif
+    font-family: lexend, sans-serif
 
 .bg-theme
-    background-color: pink
+    background-color: $t1
 
 img
     display: flex
@@ -14,7 +20,7 @@ img
     border: none
 
     &:hover
-        color: pink !important
+        color: $t1 !important
         background-color: black
 
 .nav-link
@@ -22,7 +28,7 @@ img
     padding: 5px
 
     &:hover
-        color: pink !important
+        color: $t1 !important
         background-color: black
 
 .navbar-toggler-right
