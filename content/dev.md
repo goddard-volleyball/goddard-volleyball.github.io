@@ -33,11 +33,11 @@ title = "Dev"
             <div class="card-header text-center">Todo</div>
             <div class="card-body">
     
-- [ ] font change
+- [x] font change
 - [ ] color scheme
 - [ ] 404 page
 - [ ] favicon
-- [ ] logo
+- [x] logo
             </div>
         </div>
     </div>

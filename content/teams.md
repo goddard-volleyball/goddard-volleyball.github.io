@@ -9,7 +9,7 @@ title = "Teams"
     <div class="card h-100">
         <div class="card-header text-center">Team 1</div>
         <div class="card-body">
-            Roster
+            Stooges
         </div>
     </div>
 </div>
@@ -18,7 +18,7 @@ title = "Teams"
     <div class="card h-100">
         <div class="card-header text-center">Team 2</div>
         <div class="card-body">
-            Roster
+            Champions
         </div>
     </div>
 </div>
@@ -27,16 +27,16 @@ title = "Teams"
     <div class="card h-100">
         <div class="card-header text-center">Team 3</div>
         <div class="card-body">
-            Roster
+            Sam?
         </div>
     </div>
 </div>
 
 <div class="col-12 col-md-6 col-lg-3">
     <div class="card h-100">
-        <div class="card-header text-center">Team 4</div>
+        <div class="card-header text-center">Team 5</div>
         <div class="card-body">
-            Roster
+            UMD
         </div>
     </div>
 </div>
@@ -46,36 +46,36 @@ title = "Teams"
 <div class="row g-4 mt-0">
 <div class="col-12 col-md-6 col-lg-3">
     <div class="card h-100">
-        <div class="card-header text-center">Team 5</div>
-        <div class="card-body">
-            Roster
-        </div>
-    </div>
-</div>
-
-<div class="col-12 col-md-6 col-lg-3">
-    <div class="card h-100">
-        <div class="card-header text-center">Team 6</div>
-        <div class="card-body">
-            Roster
-        </div>
-    </div>
-</div>
-
-<div class="col-12 col-md-6 col-lg-3">
-    <div class="card h-100">
-        <div class="card-header text-center">Team 7</div>
-        <div class="card-body">
-            Roster
-        </div>
-    </div>
-</div>
-
-<div class="col-12 col-md-6 col-lg-3">
-    <div class="card h-100">
         <div class="card-header text-center">Team 8</div>
         <div class="card-body">
-            Roster
+            Blue
+        </div>
+    </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+    <div class="card h-100">
+        <div class="card-header text-center">Team 11</div>
+        <div class="card-body">
+            Tom?
+        </div>
+    </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+    <div class="card h-100">
+        <div class="card-header text-center">Team 13</div>
+        <div class="card-body">
+            Condiments
+        </div>
+    </div>
+</div>
+
+<div class="col-12 col-md-6 col-lg-3">
+    <div class="card h-100">
+        <div class="card-header text-center">Team 15</div>
+        <div class="card-body">
+            Chaos
         </div>
     </div>
 </div>
