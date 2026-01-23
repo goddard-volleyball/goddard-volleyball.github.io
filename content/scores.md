@@ -7,7 +7,7 @@ title = "Scores"
     <div class="col-12">
         <div class="card">
             <div class="card-header text-center">Table</div>
-            <div class="card-body">  
+            <div class="card-body overflow-auto">  
                 <table>
                     <tr>
                         <th>Position</th>
@@ -110,25 +110,25 @@ title = "Scores"
                             </div>
                             <div class="card-body p-0 overflow">
                                 <div class="row mx-auto">
-                                    <div class="col-2 p-2 text-white bg-theme" style="border-radius: 5px 0 0 5px">
+                                    <div class="col-2 p-2 bg-light text-dark" style="border-radius: 5px 0 0 5px">
                                         Team 1
                                     </div>
                                         <div class="col-1 p-2">
                                             <strong>3</strong>
                                             1
                                         </div>
-                                    <div class="col-2 p-2 text-white bg-primary text-end" style="border-radius: 0 5px 5px 0">
+                                    <div class="col-2 p-2 bg-theme text-dark text-end" style="border-radius: 0 5px 5px 0">
                                         Team 2
                                     </div>
                                     <div class="col-2 text-center p-2">6:20</div>
-                                    <div class="col-2 p-2 text-white bg-theme" style="border-radius: 5px 0 0 5px">
+                                    <div class="col-2 p-2 bg-light text-dark" style="border-radius: 5px 0 0 5px">
                                         Team 1
                                     </div>
                                         <div class="col-1 p-2">
                                             <strong>3</strong>
                                             1
                                         </div>
-                                    <div class="col-2 p-2 text-white bg-primary text-end" style="border-radius: 0 5px 5px 0">
+                                    <div class="col-2 p-2 bg-theme text-dark text-end" style="border-radius: 0 5px 5px 0">
                                         Team 2
                                     </div>
                                 </div>
@@ -136,25 +136,25 @@ title = "Scores"
                             <div class="row my-1"></div>
                             <div class="card-body p-0 overflow">
                                 <div class="row mx-auto">
-                                    <div class="col-2 p-2 text-white bg-theme" style="border-radius: 5px 0 0 5px">
+                                    <div class="col-2 p-2 bg-light text-dark" style="border-radius: 5px 0 0 5px">
                                         Team 1
                                     </div>
                                         <div class="col-1 p-2 text-center">
                                             <strong>3</strong>
                                             1
                                         </div>
-                                    <div class="col-2 p-2 text-white bg-primary text-end" style="border-radius: 0 5px 5px 0">
+                                    <div class="col-2 p-2 bg-theme text-dark text-end" style="border-radius: 0 5px 5px 0">
                                         Team 2
                                     </div>
                                     <div class="col-2 text-center p-2">7:40</div>
-                                    <div class="col-2 p-2 text-white bg-theme" style="border-radius: 5px 0 0 5px">
+                                    <div class="col-2 p-2 bg-light text-dark" style="border-radius: 5px 0 0 5px">
                                         Team 1
                                     </div>
                                         <div class="col-1 p-2">
                                             <strong>3</strong>
                                             1
                                         </div>
-                                    <div class="col-2 p-2 text-white bg-primary text-end" style="border-radius: 0 5px 5px 0">
+                                    <div class="col-2 p-2 bg-theme text-dark text-end" style="border-radius: 0 5px 5px 0">
                                         Team 2
                                     </div>
                                 </div>
