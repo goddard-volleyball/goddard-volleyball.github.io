@@ -104,9 +104,9 @@ title = "Scores"
                                     <div class="col-10">
                                         <div class="row gy-2">
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 1 
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Chaos
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         3
@@ -114,15 +114,15 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         1 
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 2
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Stooges
                                                     </div>
                                                 </div> 
                                             </div>
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 3
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Blue
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         2
@@ -130,8 +130,8 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         2
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 4
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Tom
                                                     </div>
                                                 </div> 
                                             </div>
@@ -145,9 +145,9 @@ title = "Scores"
                                     <div class="col-10">
                                         <div class="row gy-2">
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 5
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Sam
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         3
@@ -155,15 +155,15 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         1 
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 6
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        UMD
                                                     </div>
                                                 </div> 
                                             </div>
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 7
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Champions
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         2
@@ -171,8 +171,8 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         2
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 8
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Condiments
                                                     </div>
                                                 </div> 
                                             </div>
@@ -189,9 +189,9 @@ title = "Scores"
                                     <div class="col-10">
                                         <div class="row gy-2">
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 1 
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Chaos
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         3
@@ -199,15 +199,15 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         1 
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 2
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Tom
                                                     </div>
                                                 </div> 
                                             </div>
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 3
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Champions
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         2
@@ -215,8 +215,8 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         2
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 4
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Sam
                                                     </div>
                                                 </div> 
                                             </div>
@@ -230,9 +230,9 @@ title = "Scores"
                                     <div class="col-10">
                                         <div class="row gy-2">
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 5
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Condiments
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         3
@@ -240,15 +240,15 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         1 
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 6
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        UMD
                                                     </div>
                                                 </div> 
                                             </div>
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 7
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Blue
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         2
@@ -256,8 +256,8 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         2
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 8
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Sam
                                                     </div>
                                                 </div> 
                                             </div>
@@ -274,25 +274,25 @@ title = "Scores"
                                     <div class="col-10">
                                         <div class="row gy-2">
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 1 
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Condiments
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         3
                                                     </div>
                                                     <div class="col-1 p-2 text-end">
-                                                        1 
+                                                        1
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 2
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        UMD
                                                     </div>
                                                 </div> 
                                             </div>
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 3
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Tom
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         2
@@ -300,8 +300,8 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         2
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 4
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Sam
                                                     </div>
                                                 </div> 
                                             </div>
@@ -315,25 +315,25 @@ title = "Scores"
                                     <div class="col-10">
                                         <div class="row gy-2">
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 5
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Blue
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         3
                                                     </div>
                                                     <div class="col-1 p-2 text-end">
-                                                        1 
+                                                        1
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 6
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Champions
                                                     </div>
                                                 </div> 
                                             </div>
                                             <div class="col-12 col-md-6">
-                                                <div class="row g-2">
-                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
-                                                        Team 7
+                                                <div class="row g-0">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                                        Stooges
                                                     </div>
                                                     <div class="col-1 p-2">
                                                         2
@@ -341,8 +341,8 @@ title = "Scores"
                                                     <div class="col-1 p-2 text-end">
                                                         2
                                                     </div>
-                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
-                                                        Team 8
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                                        Condiments
                                                     </div>
                                                 </div> 
                                             </div>
