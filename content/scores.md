@@ -96,85 +96,83 @@ title = "Scores"
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header text-center">10/10/26</div>
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="row align-items-center">
-                                        <div class="col-2">6:20</div>
-                                        <div class="col-10">
-                                            <div class="row g-2">
-                                                <div class="col-12 col-md-6 border rounded overflow-hidden">
-                                                    <div class="row g-2">
-                                                        <div class="col-5 p-2 bg-light text-dark">
-                                                            Team 1 
-                                                        </div>
-                                                        <div class="col-1 p-2">
-                                                            3
-                                                        </div>
-                                                        <div class="col-1 p-2 text-end">
-                                                            1 
-                                                        </div>
-                                                        <div class="col-5 p-2 bg-theme text-end text-dark">
-                                                            Team 2
-                                                        </div>
-                                                    </div> 
-                                                </div>
-                                                <div class="col-12 col-md-6 border rounded overflow-hidden">
-                                                    <div class="row g-2">
-                                                        <div class="col-5 p-2 bg-light text-dark">
-                                                            Team 3
-                                                        </div>
-                                                        <div class="col-1 p-2">
-                                                            2
-                                                        </div>
-                                                        <div class="col-1 p-2 text-end">
-                                                            2
-                                                        </div>
-                                                        <div class="col-5 p-2 bg-theme text-end text-dark">
-                                                            Team 4
-                                                        </div>
-                                                    </div> 
-                                                </div>
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-2">6:20</div>
+                                    <div class="col-10">
+                                        <div class="row gy-2">
+                                            <div class="col-12 col-md-6">
+                                                <div class="row g-2">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
+                                                        Team 1 
+                                                    </div>
+                                                    <div class="col-1 p-2">
+                                                        3
+                                                    </div>
+                                                    <div class="col-1 p-2 text-end">
+                                                        1 
+                                                    </div>
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
+                                                        Team 2
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="row g-2">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
+                                                        Team 3
+                                                    </div>
+                                                    <div class="col-1 p-2">
+                                                        2
+                                                    </div>
+                                                    <div class="col-1 p-2 text-end">
+                                                        2
+                                                    </div>
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
+                                                        Team 4
+                                                    </div>
+                                                </div> 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer">
-                                    <div class="row align-items-center">
-                                        <div class="col-2">7:40</div>
-                                        <div class="col-10">
-                                            <div class="row g-2">
-                                                <div class="col-12 col-md-6 border rounded overflow-hidden">
-                                                    <div class="row g-2">
-                                                        <div class="col-5 p-2 bg-light text-dark">
-                                                            Team 1 
-                                                        </div>
-                                                        <div class="col-1 p-2">
-                                                            3
-                                                        </div>
-                                                        <div class="col-1 p-2 text-end">
-                                                            1 
-                                                        </div>
-                                                        <div class="col-5 p-2 bg-theme text-end text-dark">
-                                                            Team 2
-                                                        </div>
-                                                    </div> 
-                                                </div>
-                                                <div class="col-12 col-md-6 border rounded overflow-hidden">
-                                                    <div class="row g-2">
-                                                        <div class="col-5 p-2 bg-light text-dark">
-                                                            Team 3
-                                                        </div>
-                                                        <div class="col-1 p-2">
-                                                            2
-                                                        </div>
-                                                        <div class="col-1 p-2 text-end">
-                                                            2
-                                                        </div>
-                                                        <div class="col-5 p-2 bg-theme text-end text-dark">
-                                                            Team 4
-                                                        </div>
-                                                    </div> 
-                                                </div>
+                            </div>
+                            <div class="card-body border-top">
+                                <div class="row align-items-center">
+                                    <div class="col-2">7:40</div>
+                                    <div class="col-10">
+                                        <div class="row gy-2">
+                                            <div class="col-12 col-md-6">
+                                                <div class="row g-2">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
+                                                        Team 5
+                                                    </div>
+                                                    <div class="col-1 p-2">
+                                                        3
+                                                    </div>
+                                                    <div class="col-1 p-2 text-end">
+                                                        1 
+                                                    </div>
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
+                                                        Team 6
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <div class="row g-2">
+                                                    <div class="col-5 p-2 bg-light text-dark rounded-start-2">
+                                                        Team 7
+                                                    </div>
+                                                    <div class="col-1 p-2">
+                                                        2
+                                                    </div>
+                                                    <div class="col-1 p-2 text-end">
+                                                        2
+                                                    </div>
+                                                    <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-2">
+                                                        Team 8
+                                                    </div>
+                                                </div> 
                                             </div>
                                         </div>
                                     </div>
