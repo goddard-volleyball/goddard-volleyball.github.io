@@ -7,7 +7,8 @@ title = "Scores"
     <div class="col-12">
         <div class="card">
             <div class="card-header text-center">Table</div>
-            <div class="card-body overflow-auto mx-auto">
+            <div class="card-body d-flex justify-content-center">
+                <div class="overflow-auto">
                 <table>
                     <tr>
                         <th>Position</th>
@@ -82,6 +83,7 @@ title = "Scores"
                         <td>3.5</td>
                     </tr>
                 </table>
+                </div>
             </div>
         </div>
     </div>
