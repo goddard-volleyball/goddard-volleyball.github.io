@@ -34,10 +34,14 @@ title = "Dev"
             <div class="card-body">
     
 - [x] font change
-- [ ] color scheme
-- [ ] 404 page
-- [ ] favicon
+- [x] color scheme
+- [x] 404 page
+- [x] favicon
 - [x] logo
+- [ ] win percentage
+- [ ] cumulative wins / losses
+- [ ] games behind
+- [ ] position
             </div>
         </div>
     </div>
