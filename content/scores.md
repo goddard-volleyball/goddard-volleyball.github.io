@@ -108,10 +108,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Chaos
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         3
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         1 
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -124,10 +124,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Blue
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         2
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         2
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -149,10 +149,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Sam
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         3
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         1 
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -165,10 +165,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Champions
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         2
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         2
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -193,10 +193,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Chaos
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         3
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         1 
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -209,10 +209,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Champions
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         2
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         2
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -234,10 +234,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Condiments
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         3
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         1 
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -250,10 +250,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Blue
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         2
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         2
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -278,10 +278,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Condiments
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         3
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         1
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -294,10 +294,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Tom
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         2
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         2
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -319,10 +319,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Blue
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         3
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         1
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
@@ -335,10 +335,10 @@ title = "Scores"
                                                     <div class="col-5 p-2 bg-light text-dark rounded-start-3">
                                                         Stooges
                                                     </div>
-                                                    <div class="col-1 p-2">
+                                                    <div class="col-1 p-2 border-top border-bottom">
                                                         2
                                                     </div>
-                                                    <div class="col-1 p-2 text-end">
+                                                    <div class="col-1 p-2 text-end border-top border-bottom">
                                                         2
                                                     </div>
                                                     <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
