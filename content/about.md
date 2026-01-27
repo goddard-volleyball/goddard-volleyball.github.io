@@ -1,6 +1,6 @@
 +++
 template = "page.html"
-title = "Scores"
+title = "About"
 +++
 
 <div class="row g-4">
