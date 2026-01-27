@@ -22,12 +22,36 @@ title = "Scores"
     <div class="col-12">
         <div class="card">
             <div class="card-header text-center">Champions</div>
-            <div class="card-body">
-
-- 2025: Team 2
-- 2024: Team 2
-- 2023: Team 2
-- 2022: Team 2
+            <div class="card-body d-flex justify-content-center">
+                <div class="overflow-auto">
+                    <table>
+                        <tr>
+                            <th>Year</th>
+                            <th>Champion</th>
+                            <th>Runner Up</th>
+                        </tr>
+                        <tr>
+                            <td>2025</td>
+                            <td>Team 2</td>
+                            <td>Team 8</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>Team 2</td>
+                            <td>Team 1</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>Team 2</td>
+                            <td>Unknown</td>
+                        </tr>
+                        <tr>
+                            <td>2022</td>
+                            <td>Team 2</td>
+                            <td>Unknown</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
