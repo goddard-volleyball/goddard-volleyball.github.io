@@ -1,88 +1,17 @@
 +++
-template = "page.html"
+template = "base.html"
 title = "Scores"
 +++
 
 <div class="row g-4">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Table</div>
+            <div class="card-header text-center">Standings</div>
             <div class="card-body d-flex justify-content-center">
                 <div class="overflow-auto">
-                <table>
-                    <tr>
-                        <th>Position</th>
-                        <th>Team</th>
-                        <th>Wins</th>
-                        <th>Losses</th>
-                        <th>Win Percentage</th>
-                        <th>Games Behind</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Stooges</td>
-                        <td>3</td>
-                        <td>33</td>
-                        <td>30%</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Champions</td>
-                        <td>22</td>
-                        <td>2</td>
-                        <td>60%</td>
-                        <td>3.5</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>UMD</td>
-                        <td>22</td>
-                        <td>2</td>
-                        <td>60%</td>
-                        <td>3.5</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Chaos</td>
-                        <td>22</td>
-                        <td>2</td>
-                        <td>60%</td>
-                        <td>3.5</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Tom</td>
-                        <td>22</td>
-                        <td>2</td>
-                        <td>60%</td>
-                        <td>3.5</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Condiments</td>
-                        <td>22</td>
-                        <td>2</td>
-                        <td>60%</td>
-                        <td>3.5</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Blue</td>
-                        <td>22</td>
-                        <td>2</td>
-                        <td>60%</td>
-                        <td>3.5</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Sam</td>
-                        <td>22</td>
-                        <td>2</td>
-                        <td>60%</td>
-                        <td>3.5</td>
-                    </tr>
-                </table>
+{% standings() %}
+test
+{% end %}
                 </div>
             </div>
         </div>

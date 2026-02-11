@@ -1,0 +1,23 @@
+{% set data = load_data(path='standings.csv', format="csv") %}
+
+{# rows 15–22 (8 rows) #}
+{% set target_records = data.records | slice(start=10, end=18) %}
+
+<table>
+    <tr>
+        <th>Team</th>
+        <th>Sets Won</th>
+        <th>Sets Lost</th>
+        <th>Win %</th>
+        <th>Games Behind</th>
+    </tr>
+    
+{% for row in target_records %}
+    <tr>
+{% set target_values = row | slice(start=29, end=34) %}
+{% for value in target_values %}
+            <td>{{ value }}</td>
+{% endfor %}
+    </tr>
+{% endfor %}
+</table>
