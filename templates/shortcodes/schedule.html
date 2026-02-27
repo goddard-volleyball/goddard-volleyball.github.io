@@ -1,6 +1,88 @@
-{% set data = load_data(path='standings.csv', format="csv") %}
+{% set data = load_data(path='processed-schedule.csv', format="csv") %}
+{% set target_records = data.records | slice(start=0, end=10) %}
 
-{# rows 15–22 (8 rows) #}
-{% set target_records = data.records | slice(start=10, end=18) %}
-
-
+<div class="card">
+    <div class="card-header text-center">10/10/26</div>
+    <div class="card-body">
+        <div class="row align-items-center">
+            <div class="col-2">6:20</div>
+            <div class="col-10">
+                <div class="row gy-2">
+                    <div class="col-12 col-md-6">
+                        <div class="row g-0">
+                            <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                Chaos
+                            </div>
+                            <div class="col-1 p-2 border-top border-bottom">
+                                3
+                            </div>
+                            <div class="col-1 p-2 text-end border-top border-bottom">
+                                1 
+                            </div>
+                            <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                Stooges
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row g-0">
+                            <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                Blue
+                            </div>
+                            <div class="col-1 p-2 border-top border-bottom">
+                                2
+                            </div>
+                            <div class="col-1 p-2 text-end border-top border-bottom">
+                                2
+                            </div>
+                            <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                Tom
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-body border-top">
+        <div class="row align-items-center">
+            <div class="col-2">7:40</div>
+            <div class="col-10">
+                <div class="row gy-2">
+                    <div class="col-12 col-md-6">
+                        <div class="row g-0">
+                            <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                Sam
+                            </div>
+                            <div class="col-1 p-2 border-top border-bottom">
+                                3
+                            </div>
+                            <div class="col-1 p-2 text-end border-top border-bottom">
+                                1 
+                            </div>
+                            <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                UMD
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row g-0">
+                            <div class="col-5 p-2 bg-light text-dark rounded-start-3">
+                                Champions
+                            </div>
+                            <div class="col-1 p-2 border-top border-bottom">
+                                2
+                            </div>
+                            <div class="col-1 p-2 text-end border-top border-bottom">
+                                2
+                            </div>
+                            <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
+                                Condiments
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

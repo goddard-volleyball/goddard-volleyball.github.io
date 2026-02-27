@@ -16,10 +16,13 @@ struct ScheduleRow {
     date: String,
     t1: u8,
     t2: u8,
-    t1w: u8,
-    t1l: u8
+    t3: u8,
+    t4: u8,
+    t5: u8,
+    t6: u8,
+    t7: u8,
+    t8: u8,
 }
-
 
 fn to_u8(cell: &Data) -> u8 {
     match cell {
@@ -39,9 +42,9 @@ fn to_f64(cell: &Data) -> f64 {
     }
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn gen_standings() -> Result<(), Box<dyn Error>> {
     // read in excel sheet
-    let mut workbook: Xlsx<_> = open_workbook("../VB Standings 2025-2026.xlsx")?;
+    let mut workbook: Xlsx<_> = open_workbook("../2026-standings.xlsx")?;
     let sheet = workbook.sheet_names()[0].clone();
     let ws_range = workbook.worksheet_range(&sheet)?;
 
@@ -73,25 +76,16 @@ fn main() -> Result<(), Box<dyn Error>> {
     for r in &rows {
         writeln!(writer, "{},{},{},{},{}", r.t, r.w, r.l, r.p, r.b)?;
     }
-    
-    // parse schedule data
-    let mut rows: Vec<ScheduleRow> = Vec::new();
-    // for i in 3..24 {
-    //     rows.push(ScheduleRow {
-    //         date: to_u8(&ws_range[1][i]),
-    //         w: to_u8(&ws_range[1][30]),
-    //         l: to_u8(&ws_range[1][31]),
-    //         p: to_f64(&ws_range[1][32]),
-    //         b: 0.0,
-    //     });
-    // }
-    
-    // output schedule to csv
-    let file = File::create("../../static/processed-schedule.csv")?;
-    let mut writer = BufWriter::new(file);
+        
+    Ok(())
+}
+
+fn gen_schedule() -> Result<(), Box<dyn Error>> {
+
     
     Ok(())
 }
 
-
-
+fn main() -> Result<(), Box<dyn Error>> {
+    gen_standings().and_then(|_| gen_schedule())
+}
