@@ -1,8 +1,9 @@
 {% set data = load_data(path='processed-schedule.csv', format="csv") %}
-{% set target_records = data.records | slice(start=0, end=10) %}
+
+{% for row in data.records %}
 
 <div class="card">
-    <div class="card-header text-center">10/10/26</div>
+    <div class="card-header text-center">{{ row[0] }}</div>
     <div class="card-body">
         <div class="row align-items-center">
             <div class="col-2">6:20</div>
@@ -11,32 +12,32 @@
                     <div class="col-12 col-md-6">
                         <div class="row g-0">
                             <div class="col-5 p-2 bg-light text-dark rounded-start-3">
-                                Chaos
+                                Team {{ row[1] }}
                             </div>
                             <div class="col-1 p-2 border-top border-bottom">
-                                3
+                                
                             </div>
                             <div class="col-1 p-2 text-end border-top border-bottom">
-                                1 
+                                
                             </div>
                             <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
-                                Stooges
+                                Team {{ row[2] }}
                             </div>
                         </div> 
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="row g-0">
                             <div class="col-5 p-2 bg-light text-dark rounded-start-3">
-                                Blue
+                                Team {{ row[3] }}
                             </div>
                             <div class="col-1 p-2 border-top border-bottom">
-                                2
+                                
                             </div>
                             <div class="col-1 p-2 text-end border-top border-bottom">
-                                2
+                                
                             </div>
                             <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
-                                Tom
+                                Team {{ row[4] }}
                             </div>
                         </div> 
                     </div>
@@ -52,32 +53,32 @@
                     <div class="col-12 col-md-6">
                         <div class="row g-0">
                             <div class="col-5 p-2 bg-light text-dark rounded-start-3">
-                                Sam
+                                Team {{ row[5] }}
                             </div>
                             <div class="col-1 p-2 border-top border-bottom">
-                                3
+                                
                             </div>
                             <div class="col-1 p-2 text-end border-top border-bottom">
-                                1 
+                                 
                             </div>
                             <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
-                                UMD
+                                Team {{ row[6] }}
                             </div>
                         </div> 
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="row g-0">
                             <div class="col-5 p-2 bg-light text-dark rounded-start-3">
-                                Champions
+                                Team {{ row[7] }}
                             </div>
                             <div class="col-1 p-2 border-top border-bottom">
-                                2
+                                
                             </div>
                             <div class="col-1 p-2 text-end border-top border-bottom">
-                                2
+                                
                             </div>
                             <div class="col-5 p-2 bg-theme text-end text-dark rounded-end-3">
-                                Condiments
+                                Team {{ row[8] }}
                             </div>
                         </div> 
                     </div>
@@ -86,3 +87,5 @@
         </div>
     </div>
 </div>
+
+{% endfor %}

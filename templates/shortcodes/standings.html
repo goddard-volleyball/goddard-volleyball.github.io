@@ -11,8 +11,7 @@
     
 {% for row in data.records %}
     <tr>
-{% set target_values = row %}
-{% for value in target_values %}
+{% for value in row %}
             <td>{{ value }}</td>
 {% endfor %}
     </tr>
