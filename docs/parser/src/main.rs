@@ -41,7 +41,7 @@ fn to_f64(cell: &Data) -> f64 {
 
 fn main() -> Result<(), Box<dyn Error>> {
     // read in excel sheet
-    let mut workbook: Xlsx<_> = open_workbook("/Users/tylerlee/Code/goddard-volleyball.github.io/docs/VB Standings 2025-2026.xlsx")?;
+    let mut workbook: Xlsx<_> = open_workbook("../VB Standings 2025-2026.xlsx")?;
     let sheet = workbook.sheet_names()[0].clone();
     let ws_range = workbook.worksheet_range(&sheet)?;
 
