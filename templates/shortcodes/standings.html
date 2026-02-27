@@ -1,7 +1,5 @@
-{% set data = load_data(path='standings.csv', format="csv") %}
-
-{# rows 15–22 (8 rows) #}
-{% set target_records = data.records | slice(start=10, end=18) %}
+{% set data = load_data(path='processed-standings.csv', format="csv") %}
+{% set target_records = data.records | slice(start=0, end=8) %}
 
 <table>
     <tr>
@@ -14,7 +12,7 @@
     
 {% for row in target_records %}
     <tr>
-{% set target_values = row | slice(start=29, end=34) %}
+{% set target_values = row | slice(start=0, end=5) %}
 {% for value in target_values %}
             <td>{{ value }}</td>
 {% endfor %}

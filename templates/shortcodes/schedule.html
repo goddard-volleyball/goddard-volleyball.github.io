@@ -1,0 +1,6 @@
+{% set data = load_data(path='standings.csv', format="csv") %}
+
+{# rows 15–22 (8 rows) #}
+{% set target_records = data.records | slice(start=10, end=18) %}
+
+
