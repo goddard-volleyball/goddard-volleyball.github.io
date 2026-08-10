@@ -1,6 +1,9 @@
 # Zola
 public
 
+# Mac
+.DS_Store
+
 # Ignore target files for parser
 docs/parser/target
 
