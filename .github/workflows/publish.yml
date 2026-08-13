@@ -3,14 +3,14 @@ name: Publish Zola on Github Pages
 on: push
 
 jobs:
-  build:
+  Build:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout Main
         uses: actions/checkout@v4
       - name: Build and Deploy
-        uses: shalzz/zola-deploy-action@v0.23.3
+        uses: shalzz/zola-deploy-action@master
         env:
           PAGES_BRANCH: gh-pages
           TOKEN: ${{ secrets.GITHUB_TOKEN }}

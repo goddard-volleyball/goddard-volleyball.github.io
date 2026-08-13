@@ -6,10 +6,7 @@
         {% include "navigation.html" %}
     
         <div class="container my-4">
-            {% block content %}
-                {{ page.content | safe }}
-            {% endblock content %}
+            {% block content %}{% endblock content %}
         </div>
-    
     </body>
 </html>

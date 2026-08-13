@@ -42,10 +42,10 @@ title = "Dev"
 - [x] 404 page
 - [x] favicon
 - [x] logo
-- [ ] win percentage
-- [ ] cumulative wins / losses
-- [ ] games behind
-- [ ] position
+- [x] win percentage
+- [x] cumulative wins / losses
+- [x] games behind
+- [x] position
             </div>
         </div>
     </div>

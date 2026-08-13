@@ -1,19 +1,33 @@
-{% set data = load_data(path='processed-standings.csv', format="csv") %}
+{% set data = load_data(path="processed-standings.csv", format="csv") %}
 
-<table>
-    <tr>
-        <th>Team</th>
-        <th>Sets Won</th>
-        <th>Sets Lost</th>
-        <th>Win %</th>
-        <th>Games Behind</th>
-    </tr>
-    
-{% for row in data.records %}
-    <tr>
-{% for value in row %}
-            <td>{{ value }}</td>
-{% endfor %}
-    </tr>
-{% endfor %}
-</table>
+<div class="row g-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header text-center">Standings</div>
+            <div class="card-body d-flex justify-content-center">
+                <div class="overflow-auto">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Team</th>
+                                <th>Sets Won</th>
+                                <th>Sets Lost</th>
+                                <th>Win %</th>
+                                <th>Games Behind</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        {% for row in data.records %}
+                            <tr>
+                                {% for value in row %}
+                                    <td>{{ value }}</td>
+                                {% endfor %}
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
