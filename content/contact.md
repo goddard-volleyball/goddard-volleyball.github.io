@@ -31,12 +31,12 @@ title = "Contact"
 
 | Duty | Officer | Email |
 | ---- | ------- | ----- |
-| President | Lorinda Yam | [lorinda.s.yam@nasa.gov](mailto:lorinda.s.yam@nasa.gov) |
-| Vice President | Samelys Rodriguez | [samelys.s.rodriguez@nasa.gov](mailto:samelys.s.rodriguez@nasa.gov) |
-| Treasurer | Samelys Rodrigues (Acting) | [samelys.s.rodriguez@nasa.gov](mailto:samelys.s.rodriguez@nasa.gov) |
-| Secretary | Lorinda Yam (Acting) | [lorinda.s.yam@nasa.gov](mailto:lorinda.s.yam@nasa.gov) |
-| Web Master | Karen Keadle-Calvert | [karen.m.keadle@nasa.gov](mailto:karen.m.keadle@nasa.gov) |
-| Inquiries / Recruitment | Lorinda Yam | [lorinda.s.yam@nasa.gov](mailto:lorinda.s.yam@nasa.gov) |
+| President | Lorinda Yam | [Link](mailto:lorinda.s.yam@nasa.gov) |
+| Vice President | Samelys Rodriguez | [Link](mailto:samelys.s.rodriguez@nasa.gov) |
+| Treasurer | Samelys Rodrigues (Acting) | [Link](mailto:samelys.s.rodriguez@nasa.gov) |
+| Secretary | Lorinda Yam (Acting) | [Link](mailto:lorinda.s.yam@nasa.gov) |
+| Web Master | Karen Keadle-Calvert | [Link](mailto:karen.m.keadle@nasa.gov) |
+| Inquiries / Recruitment | Lorinda Yam | [Link](mailto:lorinda.s.yam@nasa.gov) |
 
 </div>
 </div>
