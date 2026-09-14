@@ -3,6 +3,8 @@ template = "page.html"
 title = "Dev"
 +++
 
+[![Publish Github Pages](https://github.com/goddard-volleyball/goddard-volleyball.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/goddard-volleyball/goddard-volleyball.github.io/actions/workflows/publish.yml)
+
 <div class="row g-4">
     <div class="col-12">
         <div class="card">
