@@ -1,12 +1,12 @@
 +++
 template = "page.html"
-title = "Rules"
+title = "Forms"
 +++
 
 <div class="row g-4">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Rules</div>
+            <div class="card-header text-center">Forms</div>
             <div class="card-body">
                 <div class="row g-4">
                     <div class="col-6">

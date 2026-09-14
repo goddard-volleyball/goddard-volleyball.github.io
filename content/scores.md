@@ -5,3 +5,5 @@ title = "Scores"
 
 
 {{ <standings /> }}
+
+{{ <schedule /> }}
