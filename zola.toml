@@ -5,3 +5,8 @@ build_search_index = false
 
 title = "GMVL"
 description = "Goddard Mixed Volleyball League"
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"

@@ -1,3 +1,4 @@
+{% component standings() %}
 {% set data = load_data(path="processed-standings.csv", format="csv") %}
 
 <div class="row g-4">
@@ -7,7 +8,7 @@
             <div class="card-body d-flex justify-content-center">
                 <div class="overflow-auto">
                     <table class="table">
-                        <thead>
+                        <th>
                             <tr>
                                 <th>Team</th>
                                 <th>Sets Won</th>
@@ -15,7 +16,7 @@
                                 <th>Win %</th>
                                 <th>Games Behind</th>
                             </tr>
-                        </thead>
+                        </th>
                         <tbody>
                         {% for row in data.records %}
                             <tr>
@@ -31,3 +32,4 @@
         </div>
     </div>
 </div>
+{% endcomponent %}
