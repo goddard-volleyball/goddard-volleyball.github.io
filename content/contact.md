@@ -5,7 +5,7 @@ title = "Contact"
 
 {% set teamslink = "https://teams.microsoft.com/l/team/19%3AISKhMuuOiKKqi8XmaE8lFof5ioQDiB_vM4HloXYRF5I1%40thread.tacv2/conversations?groupId=ed532da8-60f5-4a8f-9ed0-f74df64e1f22&tenantId=7005d458-45be-48ae-8140-d43da96dd17b" %}
 
-<div class="row g-4 mt-0">
+<div class="row g-4">
     <div class="col-12">
         <div class="card">
             <div class="card-header text-center">Contact the League</div>
@@ -23,19 +23,20 @@ title = "Contact"
     </div>
 </div>
 
-<div class="row g-4">
+<div class="row g-4 mt-0">
     <div class="col-12">
         <div class="card">
             <div class="card-header text-center">League Officers</div>
             <div class="card-body mx-auto text-center">
 
-| President | Lorinda Yam |
-| --------- | ----------- |
-| Vice President | Samelys Rodriguez |
-| Treasurer | Samelys Rodrigues (Acting) |
-| Secretary | Lorinda Yam (Acting) |
-| Web Master | Karen Keadle-Calvert |
-| Inquiries/Recruitment | Lorinda Yam |
+| Duty | Officer | Email |
+| ---- | ------- | ----- |
+| President | Lorinda Yam | [lorinda.s.yam@nasa.gov](mailto:lorinda.s.yam@nasa.gov) |
+| Vice President | Samelys Rodriguez | [samelys.s.rodriguez@nasa.gov](mailto:samelys.s.rodriguez@nasa.gov) |
+| Treasurer | Samelys Rodrigues (Acting) | [samelys.s.rodriguez@nasa.gov](mailto:samelys.s.rodriguez@nasa.gov) |
+| Secretary | Lorinda Yam (Acting) | [lorinda.s.yam@nasa.gov](mailto:lorinda.s.yam@nasa.gov) |
+| Web Master | Karen Keadle-Calvert | [karen.m.keadle@nasa.gov](mailto:karen.m.keadle@nasa.gov) |
+| Inquiries/Recruitment | Lorinda Yam | [lorinda.s.yam@nasa.gov](mailto:lorinda.s.yam@nasa.gov) |
 
 </div>
 </div>
