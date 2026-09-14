@@ -25,6 +25,10 @@ title = "Dev"
                         <a class="btn btn-primary bg-theme text-dark button w-100" href="
                             https://getbootstrap.com/docs/5.3/components/card/" role="button">Bootstrap Cards</a>
                     </div>
+                    <div class="col-6 col-lg-3">
+                        <a class="btn btn-primary bg-theme text-dark button w-100" href="
+                            https://keats.github.io/tera/" role="button">Tera Docs</a>
+                    </div>
                 </div>
             </div>
         </div>

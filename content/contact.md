@@ -41,3 +41,36 @@ title = "Contact"
         </div>
     </div>
 </div>
+
+
+{% component teamCard(number, cap1, cap2) %}
+<div class="col-12 col-md-6 col-lg-3">
+    <div class="card h-100">
+        <div class="card-header text-center">Team {{ number }}</div>
+        <div class="card-body">{{ cap1 }}</div>
+        <div class="card-body">{{ cap2 }}</div>
+    </div>
+</div>
+{% endcomponent %}
+
+<div class="row g-4 mt-0">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header text-center">Team Contacts</div>
+            <div class="card-body m-0">
+<div class="row g-4">
+{{ <teamCard number="1" cap1="Sierra Budinoff" cap2="Amy Feng" /> }}
+{{ <teamCard number="2" cap1="Neal Devine" cap2="Frank Robinson" /> }}
+{{ <teamCard number="3" cap1="Rob Luchessi" cap2="Carlos Lugo Acosta" /> }}
+{{ <teamCard number="5" cap1="Karen Keadle-Calvert" cap2="Rachel Goldman" /> }}
+</div>
+<div class="row g-4 mt-0">
+{{ <teamCard number="8" cap1="Lorinda Yam" cap2="Emily Bell" /> }}
+{{ <teamCard number="11" cap1="Tom Grubb" cap2="Phil Mitchell" /> }}
+{{ <teamCard number="13" cap1="Keith Hogie" cap2="Kate Gasaway" /> }}
+{{ <teamCard number="15" cap1="Samelys Rodriguez" cap2="Evelyn Andresen" /> }}
+</div>
+            </div>
+        </div>
+    </div>
+</div>

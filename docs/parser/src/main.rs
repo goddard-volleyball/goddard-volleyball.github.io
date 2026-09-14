@@ -57,7 +57,7 @@ fn to_string(cell: &Data) -> String {
 
 fn gen_standings() -> Result<(), Box<dyn Error>> {
     // read in excel sheet
-    let mut workbook: Xlsx<_> = open_workbook("../2026-standings.xlsx")?;
+    let mut workbook: Xlsx<_> = open_workbook("../2027-standings.xlsx")?;
     let sheet = workbook.sheet_names()[0].clone();
     let ws_range = workbook.worksheet_range(&sheet)?;
 
@@ -95,17 +95,17 @@ fn gen_standings() -> Result<(), Box<dyn Error>> {
 
 fn gen_schedule() -> Result<(), Box<dyn Error>> {
     // read in excel sheet
-    let mut workbook: Xlsx<_> = open_workbook("../2026-schedule.xlsx")?;
+    let mut workbook: Xlsx<_> = open_workbook("../2027-schedule.xlsx")?;
     let sheet = workbook.sheet_names()[0].clone();
     let ws_range = workbook.worksheet_range(&sheet)?;
 
     // parse standings data
     let mut rows: Vec<ScheduleRow> = Vec::new();
-    for i in 3..36 {
+    for i in 3..13 {
         // Check to make sure the row is worth parsing
         match &ws_range[i][2] {
             Data::Float(_) => {
-                // println!("{} Valid float {}", i, v);
+                println!("{} Valid float {}", i, to_string(&ws_range[i][0]));
                 
                 rows.push(ScheduleRow {
                     date: to_string(&ws_range[i][0]),
@@ -120,7 +120,7 @@ fn gen_schedule() -> Result<(), Box<dyn Error>> {
                 });
             },
             _ => {
-                // println!("{} Not seeing valid data", i);
+                println!("{} Not seeing valid data", i);
                 continue // skip row
             },
         };
