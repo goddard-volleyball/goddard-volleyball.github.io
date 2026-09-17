@@ -66,7 +66,7 @@ title = "About"
 
 | Year | Champion | Runner Up |
 | ---- | -------- | --------- |
-| 2026 | Team 2 | Unknown |
+| 2026 | Team 2 | Team 15 |
 | 2025 | Team 2 | Team 8 |
 | 2024 | Team 2 | Team 1 |
 | 2023 | Team 2 | Unknown |
