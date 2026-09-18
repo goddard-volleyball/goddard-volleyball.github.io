@@ -3,12 +3,12 @@
     "short_name": "GVML",
     "icons": [
         {
-            "src": "/manifest/android-chrome-192x192.png",
+            "src": "/man/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/manifest/android-chrome-192x192.png",
+            "src": "/man/android-chrome-192x192.png",
             "sizes": "512x512",
             "type": "image/png"
         }
