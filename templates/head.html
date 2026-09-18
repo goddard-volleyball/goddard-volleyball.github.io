@@ -1,8 +1,8 @@
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="{{ config.description }}" />
     <meta name="author" content="{{ config.author }}" />
+    <meta name="description" content="{{ config.description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
     <title>
         {% if page is defined and page.title %}
@@ -11,10 +11,15 @@
             GMVL
         {% endif %}
     </title>
-    
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" >
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" href="/manifest/favicon.ico" type="image/x-icon" >
+    <link rel="icon" type="image/png" sizes="16x16" href="/manifest/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/manifest/favicon-32x32.png">
+    <link rel="manifest" href="/manifest/site.webmanifest">
     <link rel="stylesheet" href="/bootstrap.min.css" />
     <link rel="stylesheet" href="/styles.css" />
+    
     <script src="/all.min.js"></script>
     <script src="/bootstrap.bundle.min.js"></script>
 </head>
