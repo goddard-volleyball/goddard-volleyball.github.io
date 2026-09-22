@@ -6,7 +6,9 @@ title = "About"
 <div class="row g-4">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Quick Overview</div>
+            <div class="card-header">
+                <h5>Quick Overview</h5>
+            </div>
             <div class="card-body">
 
 - **Who:** NASA Goddard Employees and Friends/Family
@@ -22,7 +24,9 @@ title = "About"
 <div class="row g-4 mt-0">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">FAQ</div>
+            <div class="card-header">
+                <h5>FAQ</h5>
+            </div>
             <div class="card-body faq">
 
 **Are there requirements to join?**
@@ -60,7 +64,9 @@ title = "About"
 <div class="row g-4 mt-0">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Champions</div>
+            <div class="card-header">
+                <h5>Champions</h5>
+            </div>
             <div class="card-body d-flex justify-content-center">
                 <div class="overflow-auto">
 

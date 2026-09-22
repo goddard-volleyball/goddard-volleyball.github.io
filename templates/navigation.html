@@ -1,29 +1,32 @@
 <nav class="navbar navbar-expand-sm sticky-top bg-theme" id="mainNav">
     <div class="container px-4 px-sm-5">
-        <a class="navbar-brand text-dark" href="/">
+        <a class="navbar-brand text-dark d-inline-flex align-items-center gap-2" href="/">
             <i class="fas fa-volleyball-ball"></i>
             <!--<img class="img-fluid mx-auto" src="/logo.svg" width="40" />-->
-            {{ config.description }}
+            <h5 class="mb-0">{{ config.description }}</h5>
         </a>
 
-        <button class="navbar-toggler navbar-toggler-right text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
+        <button class="navbar-toggler navbar-toggler-right text-dark px-0 d-inline-flex d-sm-none align-items-center justify-content-center gap-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
             <i class="fas fa-bars"></i>
-            Menu
+            <h5 class="mb-0">Menu</h5>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-itempdown">
-                    <a class="nav-link text-dark" href="/about">About</a>
+                    <a class="nav-link text-dark" href="/about"><h5>About</h5></a>
                 </li>
                 <li class="nav-itempdown">
-                    <a class="nav-link text-dark" href="/scores">Scores</a>
+                    <a class="nav-link text-dark" href="/scores"><h5>Scores</h5></a>
                 </li>
                 <li class="nav-itempdown">
-                    <a class="nav-link text-dark" href="/forms">Forms</a>
+                    <a class="nav-link text-dark" href="/forms"><h5>Forms</h5></a>
                 </li>
                 <li class="nav-itempdown">
-                    <a class="nav-link text-dark" href="/contact">Contact</a>
+                    <a class="nav-link text-dark" href="/contact"><h5>Contact</h5></a>
+                </li>
+                <li class="nav-itempdown">
+                    <a class="nav-link text-dark" href="/grass"><h5>Grass</h5></a>
                 </li>
             </ul>
         </div>

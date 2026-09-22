@@ -1,4 +1,7 @@
 $t1: #80d0b0
+$t2: #5CBDD9
+$t3: #F6E074
+$t4: #000
 
 @font-face
   font-family: "lexend"
@@ -6,10 +9,32 @@ $t1: #80d0b0
 
 body
     font-family: lexend, sans-serif
+    background-color: $t4
+
+.card
+    overflow: hidden
+
+.card-header
+
+    h5
+        text-align: center
+        margin: 0
+
+.card-body
+    background-color: $t4
 
 .bg-theme
     background-color: $t1
 
+    h5
+        margin: 0
+
+.bg-theme-gradient
+    background: linear-gradient(to right, $t2 0%, $t1 15%, $t1, 85%, $t3 100%)
+
+    h5
+        margin: 0
+    
 img
     display: flex
     margin: 0 auto
@@ -21,7 +46,7 @@ img
 
     &:hover
         color: $t1 !important
-        background-color: black
+        background-color: $t4
 
 .nav-link
     border-radius: 5px
@@ -29,7 +54,7 @@ img
 
     &:hover
         color: $t1 !important
-        background-color: black
+        background-color: $t4
 
 .navbar-toggler-right
     border: none
@@ -40,7 +65,7 @@ img
 table
     border-collapse: separate
     border-spacing: 4px
-    color: black
+    color: $t4
 
     td, th
         padding: 5px
@@ -48,15 +73,12 @@ table
     
     th
         background: $t1
-        color: black
+        color: $t4
         text-align: center
     
     td
         background: white
         text-align: right
-
-        a
-            color: blue
 
 .scroll-table
     overflow: auto
@@ -69,3 +91,15 @@ ul
         margin-bottom: 0
     li:last-child
         margin-bottom: 1rem
+
+a
+    color: $t1
+    text-decoration: none
+
+.callout
+    padding: 1.25rem
+    margin-top: 1.25rem
+    margin-bottom: 1.25rem
+    border-left-width: .25rem
+    border-radius: .25rem
+    border-left: 10px solid $t1

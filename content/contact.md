@@ -8,7 +8,9 @@ title = "Contact"
 <div class="row g-4">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Contact the League</div>
+            <div class="card-header">
+                <h5>Contact the League</h5>
+            </div>
             <div class="card-body">
                 <div class="row g-4">
                     <div class="col-6">
@@ -26,8 +28,11 @@ title = "Contact"
 <div class="row g-4 mt-0">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">League Officers</div>
-            <div class="card-body mx-auto text-center">
+        <div class="card-header">
+            <h5>League Officers</h5>
+        </div>
+            <div class="card-body d-flex justify-content-center">
+                <div class="overflow-auto">
 
 | Duty | Officer | Email |
 | ---- | ------- | ----- |
@@ -35,9 +40,10 @@ title = "Contact"
 | Vice President | Samelys Rodriguez | [Link](mailto:samelys.s.rodriguez@nasa.gov) |
 | Treasurer | Samelys Rodrigues (Acting) | [Link](mailto:samelys.s.rodriguez@nasa.gov) |
 | Secretary | Lorinda Yam (Acting) | [Link](mailto:lorinda.s.yam@nasa.gov) |
-| Web Master | Karen Keadle-Calvert | [Link](mailto:karen.m.keadle@nasa.gov) |
+| Web Master | Tyler Lee | [Link](https://lichess.org/@/tlee753) |
 | Inquiries / Recruitment | Lorinda Yam | [Link](mailto:lorinda.s.yam@nasa.gov) |
 
+</div>
 </div>
 </div>
 </div>
@@ -56,7 +62,9 @@ title = "Contact"
 <div class="row g-4 mt-0">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Team Contacts</div>
+            <div class="card-header">
+                <h5>Team Contacts</h5>
+            </div>
             <div class="card-body m-0">
 <div class="row g-4">
 {{ <teamCard number="1" cap1="Sierra Budinoff" cap2="Amy Feng" /> }}

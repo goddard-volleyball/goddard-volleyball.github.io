@@ -8,7 +8,9 @@ title = "Dev"
 <div class="row g-4">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Links</div>
+            <div class="card-header">
+                <h5>Links</h5>
+            </div>
             <div class="card-body">
                 <div class="row g-4">
                     <div class="col-6 col-lg-3">
@@ -40,7 +42,9 @@ title = "Dev"
 <div class="row g-4 mt-0">
     <div class="col-12">
         <div class="card">
-            <div class="card-header text-center">Todo</div>
+            <div class="card-header">
+                <h5>Todo</h5>
+            </div>
             <div class="card-body">
     
 - [x] font change
