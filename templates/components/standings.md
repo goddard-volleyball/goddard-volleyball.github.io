@@ -2,13 +2,13 @@
 {% set data = load_data(path="processed-standings.csv", format="csv") %}
 
 <div class="row g-4">
-<div class="col-12">
-<div class="card">
-<div class="card-header">
-<h5>Standings</h5>
-</div>
-<div class="card-body d-flex justify-content-center">
-<div class="overflow-auto">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>Standings</h5>
+            </div>
+            <div class="card-body d-flex justify-content-center">
+                <div class="overflow-auto">
 
 | Team | Sets Won | Sets Lost | Win % | Games Behind |
 | ---- | -------- | --------- | ----- | ------------ |
