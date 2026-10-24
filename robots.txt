@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://goddard-volleyball.github.io/sitemap.xml
