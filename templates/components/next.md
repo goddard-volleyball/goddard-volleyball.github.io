@@ -2,7 +2,7 @@
 {% set data = load_data(path="processed-schedule.csv", format="csv") %}
 {% set today = now(format="%Y-%m-%d") %}
 
-<div class="row g-4">
+<div class="row g-4 mt-0">
     <div class="col-12">
         <div class="card">
             <div class="card-header">
